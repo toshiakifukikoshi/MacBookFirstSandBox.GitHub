@@ -1,3 +1,61 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 1px 16px;
+}
+
+button:hover {
+  background-color: #faf;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: #aaa;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.incomplete-area {
+  background-color: #777;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.complate-area {
+  background-color: #ffa;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  /* pタグは上下にマージン16px、文字が24px */
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.list-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
