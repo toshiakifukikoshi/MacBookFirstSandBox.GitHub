@@ -8,3 +8,12 @@ import "./styles.css";
 //   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 // </div>
 // `;
+
+const onClickAdd = () => {
+  const inputText = document.getElementById("add-text").value;
+  document.getElementById("add-text").value = "";
+};
+
+document
+  .getElementById("add-button")
+  .addEventListener("click", () => onClickAdd());
