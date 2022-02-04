@@ -23,7 +23,7 @@ button:hover {
 
 .input-area {
   background-color: #aaa;
-  width: 400px;
+  width: 600px;
   height: 30px;
   padding: 8px;
   margin: 8px;
@@ -31,7 +31,7 @@ button:hover {
 }
 .incomplete-area {
   background-color: #777;
-  width: 400px;
+  width: 600px;
   min-height: 200px;
   padding: 8px;
   margin: 8px;
@@ -39,7 +39,7 @@ button:hover {
 }
 .complate-area {
   background-color: #ffa;
-  width: 400px;
+  width: 600px;
   min-height: 200px;
   padding: 8px;
   margin: 8px;
